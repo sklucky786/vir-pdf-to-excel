@@ -201,7 +201,7 @@ def to_excel(df):
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="PDF to Excel Utility", layout="wide")
-st.title("📄 PDF to Excel Converter")
+st.title("📄 LITSOL - PDF Invoice to Excel Converter")
 st.markdown("Upload the **VIR Invoice PDF**. Supports multi-page items.")
 
 uploaded_file = st.file_uploader("Upload PDF File", type=["pdf"])
